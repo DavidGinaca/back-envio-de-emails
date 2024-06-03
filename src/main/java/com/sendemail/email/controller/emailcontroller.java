@@ -10,14 +10,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
+@CrossOrigin("http://localhost:4200/")
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/send")
 public class emailcontroller {
 
     @Autowired
     private IEmailService emailService;
 
-    @PostMapping("/sendMessage")
+    @PostMapping("/Message")
     public ResponseEntity<?> receiveRequestEmail(@RequestBody EmailDTO emailDTO){
 
         System.out.println("mensaje recibido" + emailDTO);
