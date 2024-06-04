@@ -1,0 +1,6 @@
+com\sendemail\email\controller\emailcontroller.class
+com\sendemail\email\domain\EmailDTO.class
+com\sendemail\email\service\IEmailService.class
+com\sendemail\email\config\emailconfig.class
+com\sendemail\email\EmailApplication.class
+com\sendemail\email\service\EmailServiceImpl.class
