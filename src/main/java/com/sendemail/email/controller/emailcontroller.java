@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("https://davidginaca-a42b1.firebaseapp.com/")
 @RestController
 @RequestMapping("/send")
 public class emailcontroller {
